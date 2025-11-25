@@ -23,6 +23,7 @@ ai-coding-prompt/
 ├── 工程结构/                 # 工程结构层
 ├── 前端/                     # 前端技术栈实现
 ├── 移动端/                   # 移动端技术栈实现
+├── skills/                   # Claude技能文件 (新增)
 ├── index.html                # 项目首页
 ├── prompt使用示例.md         # 使用示例文档
 ├── prompt使用示例图.png      # 使用示例图片
@@ -42,6 +43,26 @@ ai-coding-prompt/
 | **工程结构** | 项目框架 | 目录结构、配置管理、部署方案 |
 | **前端层** | 前端实现 | Vue 3、Vite 5、Pinia、Ant Design Vue |
 | **移动端层** | 移动端实现 | uni-app (Vue 3)、uni-ui、跨端开发 |
+| **Claude技能层** | AI辅助 | Claude优化的技能文件，适用于AI编码辅助 |
+
+## 🤖 Claude技能
+
+本项目提供了一套针对Claude优化的技能文件，位于`skills/`目录下。这些技能是从原始prompt转换而来，专门为Claude设计。
+
+### 技能列表
+
+| 类别 | 技能文件 | 说明 |
+|------|---------|------|
+| Java后端 | `java-architecture-new-class.md` | 新增类技术方案设计 |
+| Java后端 | `java-api-definition.md` | RESTful接口定义 |
+| Java后端 | `java-database-schema.md` | 数据库表设计 |
+| Java后端 | `java-ddd-business-layer.md` | DDD业务层实现 |
+| Vue3前端 | `vue3-project-structure.md` | 前端工程结构设计 |
+| Vue3前端 | `vue3-component-development.md` | 组件开发 |
+| uni-app移动端 | `uniapp-project-structure.md` | 移动端工程结构设计 |
+| uni-app移动端 | `uniapp-component-development.md` | 移动端组件开发 |
+
+查看完整的技能列表: [skills/README.md](skills/README.md)
 
 ## 🚀 快速开始
 
